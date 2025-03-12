@@ -1,0 +1,54 @@
+12 Mar 2025 17:35:16,981 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:35:17,155 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:35:17,167 TRACE repository.CarsDBRepository 41 add - Saved Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:35:17,167 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:35:17,168 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:35:17,172 TRACE repository.CarsDBRepository 41 add - Saved Car{id=4, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:35:17,172 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:35:17,172 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019} with id 3
+12 Mar 2025 17:35:17,178 TRACE repository.CarsDBRepository 101 update - Updated Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:35:17,178 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:35:17,178 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:35:17,181 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:35:17,181 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:35:17,185 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:35:17,185 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:35:17,185 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:35:17,189 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:35:17,189 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:35:32,149 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:35:32,328 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:35:32,337 TRACE repository.CarsDBRepository 41 add - Saved Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:35:32,339 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:35:32,339 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:35:32,343 TRACE repository.CarsDBRepository 41 add - Saved Car{id=4, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:35:32,344 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:35:32,344 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019} with id 3
+12 Mar 2025 17:35:32,349 TRACE repository.CarsDBRepository 101 update - Updated Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:35:32,349 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:35:32,350 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:35:32,351 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:35:32,351 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:35:32,356 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:35:32,356 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:35:32,356 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:35:32,361 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:35:32,362 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:37:43,048 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:37:43,212 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:37:43,223 TRACE repository.CarsDBRepository 41 add - Saved Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:37:43,223 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:37:43,225 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:37:43,229 TRACE repository.CarsDBRepository 41 add - Saved Car{id=4, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:37:43,229 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:37:43,229 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019} with id 3
+12 Mar 2025 17:37:43,234 TRACE repository.CarsDBRepository 101 update - Updated Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:37:43,234 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:37:43,234 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:37:43,235 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:37:43,237 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:37:43,240 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:37:43,240 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:37:43,241 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:37:43,245 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:37:43,245 TRACE repository.CarsDBRepository 87 delete - Exit
