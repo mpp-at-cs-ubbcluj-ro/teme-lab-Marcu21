@@ -1,0 +1,191 @@
+12 Mar 2025 17:18:47,699 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersemanuDesktopAn 2Semestrul 2Medii de Proiectare si Programarecars.db}
+12 Mar 2025 17:19:12,256 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersemanuDesktopAn 2Semestrul 2Medii de Proiectare si Programarecars.db}
+12 Mar 2025 17:19:59,951 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersemanuDesktopAn 2Semestrul 2Medii de Proiectare si Programarecars.db}
+12 Mar 2025 17:20:11,292 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersemanuDesktopAn 2Semestrul 2Medii de Proiectare si Programarecars.db}
+12 Mar 2025 17:20:55,597 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:UsersemanuDesktopAn 2Semestrul 2Medii de Proiectare si Programarecars.db}
+12 Mar 2025 17:20:55,831 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:20:55,835 ERROR repository.CarsDBRepository 35 add - Error DB
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.newSQLException(DB.java:1190) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.throwex(DB.java:1150) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at repository.CarsDBRepository.add(CarsDBRepository.java:27) [main/:?]
+	at org.example.MainBD.main(MainBD.java:23) [main/:?]
+12 Mar 2025 17:20:55,844 TRACE repository.CarsDBRepository 38 add - Exit
+12 Mar 2025 17:20:55,844 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:20:55,844 ERROR repository.CarsDBRepository 35 add - Error DB
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.newSQLException(DB.java:1190) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.throwex(DB.java:1150) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at repository.CarsDBRepository.add(CarsDBRepository.java:27) [main/:?]
+	at org.example.MainBD.main(MainBD.java:27) [main/:?]
+12 Mar 2025 17:20:55,845 TRACE repository.CarsDBRepository 38 add - Exit
+12 Mar 2025 17:20:55,845 TRACE repository.CarsDBRepository 83 update - Enter updating task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2019} with id null
+12 Mar 2025 17:20:55,845 ERROR repository.CarsDBRepository 94 update - Error DB
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.newSQLException(DB.java:1190) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.throwex(DB.java:1150) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at repository.CarsDBRepository.update(CarsDBRepository.java:85) [main/:?]
+	at org.example.MainBD.main(MainBD.java:31) [main/:?]
+12 Mar 2025 17:20:55,845 TRACE repository.CarsDBRepository 97 update - Exit
+12 Mar 2025 17:20:55,846 TRACE repository.CarsDBRepository 43 findAll - Enter
+12 Mar 2025 17:20:55,846 ERROR repository.CarsDBRepository 58 findAll - Error DB
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: cars)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.newSQLException(DB.java:1190) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.throwex(DB.java:1150) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at repository.CarsDBRepository.findAll(CarsDBRepository.java:46) [main/:?]
+	at org.example.MainBD.main(MainBD.java:36) [main/:?]
+12 Mar 2025 17:20:55,846 TRACE repository.CarsDBRepository 61 findAll - Exit with([])
+12 Mar 2025 17:22:28,928 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:22:29,097 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:22:29,108 TRACE repository.CarsDBRepository 33 add - Saved Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:22:29,109 TRACE repository.CarsDBRepository 38 add - Exit
+12 Mar 2025 17:22:29,109 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:22:29,113 TRACE repository.CarsDBRepository 33 add - Saved Car{id=null, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:22:29,114 TRACE repository.CarsDBRepository 38 add - Exit
+12 Mar 2025 17:22:29,114 TRACE repository.CarsDBRepository 83 update - Enter updating task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2019} with id null
+12 Mar 2025 17:25:26,735 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:25:26,909 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:25:26,912 ERROR repository.CarsDBRepository 43 add - Error DB
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.newSQLException(DB.java:1190) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.throwex(DB.java:1150) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:210) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at repository.CarsDBRepository.add(CarsDBRepository.java:29) [main/:?]
+	at org.example.MainBD.main(MainBD.java:23) [main/:?]
+12 Mar 2025 17:25:26,922 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:25:26,922 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:25:26,922 ERROR repository.CarsDBRepository 43 add - Error DB
+org.sqlite.SQLiteException: [SQLITE_ERROR] SQL error or missing database (no such table: Masini)
+	at org.sqlite.core.DB.newSQLException(DB.java:1179) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.newSQLException(DB.java:1190) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.throwex(DB.java:1150) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare_utf8(Native Method) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.NativeDB.prepare(NativeDB.java:135) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.DB.prepare(DB.java:264) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.core.CorePreparedStatement.<init>(CorePreparedStatement.java:46) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3PreparedStatement.<init>(JDBC3PreparedStatement.java:32) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4PreparedStatement.<init>(JDBC4PreparedStatement.java:25) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc4.JDBC4Connection.prepareStatement(JDBC4Connection.java:34) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:225) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:205) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at org.sqlite.jdbc3.JDBC3Connection.prepareStatement(JDBC3Connection.java:210) ~[sqlite-jdbc-3.49.1.0.jar:?]
+	at repository.CarsDBRepository.add(CarsDBRepository.java:29) [main/:?]
+	at org.example.MainBD.main(MainBD.java:27) [main/:?]
+12 Mar 2025 17:25:26,923 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:25:26,923 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2019} with id null
+12 Mar 2025 17:25:48,380 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:25:48,535 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:25:48,545 TRACE repository.CarsDBRepository 41 add - Saved Car{id=5, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:25:48,546 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:25:48,546 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:25:48,551 TRACE repository.CarsDBRepository 41 add - Saved Car{id=6, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:25:48,551 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:25:48,552 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=5, manufacturer='Mercedes', model='E Coupe', year=2019} with id 5
+12 Mar 2025 17:25:48,558 TRACE repository.CarsDBRepository 101 update - Updated Car{id=5, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:25:48,558 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:25:48,559 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:25:48,561 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}, Car{id=5, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=6, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:27:25,158 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:27:25,357 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:27:25,369 TRACE repository.CarsDBRepository 41 add - Saved Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:27:25,369 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:27:25,370 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:27:25,375 TRACE repository.CarsDBRepository 41 add - Saved Car{id=4, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:27:25,376 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:27:25,376 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019} with id 3
+12 Mar 2025 17:27:25,381 TRACE repository.CarsDBRepository 101 update - Updated Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:27:25,381 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:27:25,382 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:27:25,384 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:27:25,384 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:27:25,391 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:27:25,391 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:27:25,392 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:27:25,396 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:27:25,397 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:28:56,002 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:28:56,165 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:28:56,176 TRACE repository.CarsDBRepository 41 add - Saved Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:28:56,177 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:28:56,177 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:28:56,182 TRACE repository.CarsDBRepository 41 add - Saved Car{id=4, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:28:56,182 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:28:56,183 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019} with id 3
+12 Mar 2025 17:28:56,186 TRACE repository.CarsDBRepository 101 update - Updated Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:28:56,186 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:28:56,187 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:28:56,188 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:28:56,189 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:28:56,193 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:28:56,193 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:28:56,193 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:28:56,197 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:28:56,197 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:32:50,560 INFO  repository.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/Users/emanu/Desktop/An 2/Semestrul 2/Medii de Proiectare si Programare/cars.db}
+12 Mar 2025 17:32:50,738 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='E Coupe', year=2018}
+12 Mar 2025 17:32:50,749 TRACE repository.CarsDBRepository 41 add - Saved Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2018} instances
+12 Mar 2025 17:32:50,750 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:32:50,750 TRACE repository.CarsDBRepository 25 add - Enter saving task Car{id=null, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:32:50,756 TRACE repository.CarsDBRepository 41 add - Saved Car{id=4, manufacturer='Mercedes', model='CLS', year=2020} instances
+12 Mar 2025 17:32:50,756 TRACE repository.CarsDBRepository 46 add - Exit
+12 Mar 2025 17:32:50,756 TRACE repository.CarsDBRepository 92 update - Enter updating task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019} with id 3
+12 Mar 2025 17:32:50,762 TRACE repository.CarsDBRepository 101 update - Updated Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:32:50,762 TRACE repository.CarsDBRepository 106 update - Exit
+12 Mar 2025 17:32:50,763 TRACE repository.CarsDBRepository 52 findAll - Enter
+12 Mar 2025 17:32:50,764 TRACE repository.CarsDBRepository 70 findAll - Exit with([Car{id=1, manufacturer='Dacia', model='Sandero', year=2019}, Car{id=2, manufacturer='Skoda', model='Octavia', year=2020}, Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}, Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}])
+12 Mar 2025 17:32:50,764 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:32:50,769 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=3, manufacturer='Mercedes', model='E Coupe', year=2019}
+12 Mar 2025 17:32:50,770 TRACE repository.CarsDBRepository 87 delete - Exit
+12 Mar 2025 17:32:50,770 TRACE repository.CarsDBRepository 76 delete - Enter deleting task Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:32:50,774 TRACE repository.CarsDBRepository 82 delete - Deleted Car{id=4, manufacturer='Mercedes', model='CLS', year=2020}
+12 Mar 2025 17:32:50,774 TRACE repository.CarsDBRepository 87 delete - Exit
